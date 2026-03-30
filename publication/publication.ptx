@@ -6,6 +6,13 @@
     </source>
 
     <common>
+        <tableofcontents level="0"/>
+        <worksheet>
+            <first-page-header right="152 HOGU, Spring 2025"/>
+            <running-header right="152 HOGU, Spring 2025"/>
+            <first-page-footer left="&#xA9; 2025 TAMU Math Learning Center"/>
+            <running-footer left="&#xA9; 2025 TAMU Math Learning Center"/> 
+        </worksheet>
         <!-- When writing an article for a specific journal, you can   -->
         <!-- specify the name of the journal to get appropriate latex. -->
         <!-- See the guide for a list of valid names:
@@ -13,4 +20,13 @@
 
         <!--<journal name="ams" /> -->
     </common>
+    <numbering>
+        <divisions level="0"/>
+    </numbering>
+    <html>
+        <css theme="salem" color-main="#500000"/>
+    </html>
+    <latex>
+        <insertions pagebreaks="break-here"/>
+    </latex>
 </publication>
