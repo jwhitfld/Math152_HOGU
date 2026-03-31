@@ -17,7 +17,7 @@
     </introduction>
 <!--START TYPING CONTENT FOR SESSION BELOW HERE-->
 <worksheet>
-    <title> Session #10 (Sections ?? coming soon)</title><!-- SECTION 10-->
+    <title> Session #10 (Sections 10.1 &amp; 10.2)</title><!-- SECTION 10-->
     <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
       For additional practice problems and explanations, refer to the Math 152 textbook which can be found in your WebAssign Course.
@@ -138,19 +138,35 @@
             <row>
               <cell>Graph I<image source="3sin(t)3cos(t).png"> <description><p>
                 A graph of a circle centered at the origin with radius 3. The circle intersects the y-axis at <m>(0,3)</m> and <m>(0,-3)</m> 
-                and the x-axis at <m>(3,0)</m> and <m>(-3,0)</m>. The coordinate plane is shown with grid lines and labeled tick marks.
+                and the x-axis at <m>(3,0)</m> and <m>(-3,0)</m>. 
               </p></description></image></cell>
-              <cell>Graph II<image source="sin(3t)3cos(t).png" /></cell>
-              <cell>Graph III<image source="3sin(t)cos(3t).png" /></cell>
+              <cell>Graph II<image source="sin(3t)3cos(t).png"><description><p>
+                
+              </p></description></image> </cell>
+              <cell>Graph III<image source="3sin(t)cos(3t).png"><description><p>
+               Parametric curve forming three horizontal lobes, one centered at the origin and one on each side. Each lobe resembles a small loop extending outward along the x-axis. 
+              </p></description></image> </cell>
             </row>
             <row>
-              <cell>Graph IV<image source="sin(3t)cos(3t).png" /></cell>
-              <cell>Graph V<image source="t^2-2tandsqrt(t).png" /></cell>
-              <cell>Graph VI<image source="t^2-2tandt.png" /></cell>
+              <cell>Graph IV<image source="sin(3t)cos(3t).png"><description><p>
+               A graph of a circle centered at the origin with radius 1. The circle intersects the y-axis at <m>(0,1)</m> and <m>(0,-1)</m> 
+                and the x-axis at <m>(1,0)</m> and <m>(-1,0)</m>. 
+              </p></description></image> </cell>
+              <cell>Graph V<image source="t^2-2tandsqrt(t).png"><description><p>
+              Curve beginning near <m>(0,1)</m>, rising slowly and flattening as it moves right. The graph bends gently upward with increasing x.  
+              </p></description></image> </cell>
+              <cell>Graph VI<image source="t^2-2tandt.png"><description><p>
+               Curve starting near <m>(-1,1)</m>, bending smoothly outward as x increases, and forming a wide arc that gradually rises and falls. The graph extends rightward with a shallow slope. 
+              </p></description></image> </cell>
             </row>
             <row>
-              <cell>Graph VII<image source="t^2-2tandt^2.png" /></cell>
-              <cell>Graph VIII<image source="t^2-2tandt^3.png" /></cell>
+              <cell>Graph VII<image source="t^2-2tandt^2.png"><description><p>
+                Curve starting near <m>(-1,1)</m>, bending leftward and then rising steeply as x increases. The graph widens quickly, forming an opening shape that grows upward and to the right.
+              </p></description></image> </cell>
+              <cell>Graph VIII<image source="t^2-2tandt^3.png"><description><p>
+              A parametric curve that decreases rapidly and is concave up near <m>t=-1</m>. Then it changes to concave down it moves right from <m>(0,0)</m>, crossing the x-axis near <m>t=1</m> and continuing 
+              to decrease.   
+              </p></description></image> </cell>
             </row>
           </tabular>
         </table>
@@ -181,7 +197,9 @@
           {Hint}:  <m>\displaystyle \sin\left(\frac{\theta}{2}\right) = \pm \sqrt{\frac{1-\cos(\theta)}{2}}\implies \sin^{2}\left(\frac{\theta}{2}\right) = \frac{1-\cos(\theta)}{2}\implies 2 \sin^{2}\left(\frac{\theta}{2}\right) = 1-\cos(\theta)</m>.
         </p>
         <p>
-          <image source="cycloid.png" width="50%"/>
+          <image source="cycloid.png" width="50%"><description><p>
+            Cycloid curve consisting of repeating arches. Each arch begins at the x-axis, rises to a rounded peak 6 units above the x-axis, and returns to the x-axis at regularly spaced intervals.
+          </p></description></image>
         </p>
       </statement>
     </exercise> 
@@ -229,7 +247,12 @@
       <statement><!-- #9 -->
         <p> Find the area enclosed by the loop of the curve <m>\displaystyle x(t)=t^{2},\ y(t)=t^{3}-3t</m>.</p>
         <p>
-        <image source="t^2_(t^3-3t).png" width="50%"/>
+        <image source="t^2_(t^3-3t).png" width="50%"><description>
+          <p>
+          Parametric curve forming a loop that is symmetric about the x-axis. The right most point is <m>(0,0)</m> and the curve crosses itself at <m>(3,0)</m>. To the right of <m>(3,0)</m>, the
+          graph extends infinitely upward and infinitely downward, maintaining symmetry to the x-axis.
+          </p> 
+          </description></image>
         </p>
       </statement>
     </exercise> 
@@ -248,7 +271,7 @@
  <exercise workspace ="3.5 in" number="1">
   <statement><!-- #1 -->
     <p>
-      Let <m>\displaystyle x(t)=\sin(9t)</m> and <m>\displaystyle y(t)=\cos(9t)</m>. Then <m>\displaystyle \frac{dy}{dx}=</m>.
+      If <m>\displaystyle x(t)=\sin(9t)</m> and <m>\displaystyle y(t)=\cos(9t)</m>, then which of the follow represents <m>\displaystyle \frac{dy}{dx}=</m>?
         <ol marker="(a)">
           <li> <p><m>\displaystyle -\tan(9t)</m></p> </li>
           <li> <p><m>\displaystyle \cot(9t)</m> </p> </li>
@@ -261,9 +284,9 @@
  </exercise>
  <exercise workspace ="3.5 in" number="2">
   <statement><!-- #2 -->
-    <p>Set up, but do not evaluate, an integral that gives the surface area of the object obtained by rotating 
-     <m>\displaystyle x(t)=1+\ln(5+t^{2}),\ y(t)=2t-2t^{2}</m> where <m>\displaystyle 0 \leq t \leq 2</m> about the <m>y-</m>axis.
-     You may assume that the curve traces out exactly once for the given rangeof <m>t</m>.
+    <p>Set up, but do not evaluate, the integral that gives the surface area of the object obtained by rotating 
+     <m>\displaystyle x(t)=1+\ln(5+t^{2}),\ y(t)=2t-2t^{2}</m>, where <m>\displaystyle 0 \leq t \leq 2</m>, about the <m>y-</m>axis.
+     You may assume that the curve traces out exactly once for the given range of <m>t</m>.
         <ol marker="(a)">
           <li> <p><m>\displaystyle \int_{0}^{2} 2\pi\left(1+\ln(5+t^{2})\right)\sqrt{\frac{4t^2}{(5+t^2)^2}+(2-4t)^{2}}\ dt</m> </p> </li>
           <li> <p><m>\displaystyle \int_{0}^{2} 2\pi\left(1+\ln(5+t^{2})\right)\sqrt{\frac{2t}{5+t^2}+2-4t}\ dt</m></p></li>
@@ -280,7 +303,7 @@
  <exercise workspace ="3.5 in" number="3">
   <statement><!-- #3 -->
     <p>
-      The integral that  correctly calculates  the length of the curve defined by <m>x(t)=t^{3}+t,\  y(t)=t^{5}-t</m> for <m>0 \leq t \leq 1</m> is:
+      The integral that  correctly calculates  the length of the curve defined by <m>x(t)=t^{3}+t,\  y(t)=t^{5}-t</m> for <m>0 \leq t \leq 1</m> is<m>\underline{\qquad\qquad}</m>.
         <ol marker="(a)">
           <li> <p><m>\displaystyle \int_{0}^{1} (t^{3}+t)\sqrt{2+6t^{2}-t^{4}+25t^{8}}\  dt</m></p> </li>
           <li> <p><m>\displaystyle \int_{0}^{1} (t^{5}-t)(3t^{2}+1)\ dt</m></p> </li>
