@@ -136,7 +136,10 @@
           <title>Graphs to Match with Equations Above</title>
           <tabular halign="center">
             <row>
-              <cell>Graph I<image source="3sin(t)3cos(t).png" /></cell>
+              <cell>Graph I<image source="3sin(t)3cos(t).png"> <description><p>
+                A graph of a circle centered at the origin with radius 3. The circle intersects the y-axis at <m>(0,3)</m> and <m>(0,-3)</m> 
+                and the x-axis at <m>(3,0)</m> and <m>(-3,0)</m>. The coordinate plane is shown with grid lines and labeled tick marks.
+              </p></description></image></cell>
               <cell>Graph II<image source="sin(3t)3cos(t).png" /></cell>
               <cell>Graph III<image source="3sin(t)cos(3t).png" /></cell>
             </row>
@@ -245,7 +248,7 @@
  <exercise workspace ="3.5 in" number="1">
   <statement><!-- #1 -->
     <p>
-      Let <m>\displaystyle x(t)=\sin(9t)</m> and <m>\displaystyle y(t)=\cos(9t)</m>. Then <m>\displaystyle \frac{dy}{dx}=</m> <em>  </em>.
+      Let <m>\displaystyle x(t)=\sin(9t)</m> and <m>\displaystyle y(t)=\cos(9t)</m>. Then <m>\displaystyle \frac{dy}{dx}=</m>.
         <ol marker="(a)">
           <li> <p><m>\displaystyle -\tan(9t)</m></p> </li>
           <li> <p><m>\displaystyle \cot(9t)</m> </p> </li>
