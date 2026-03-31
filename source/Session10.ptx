@@ -26,21 +26,22 @@
       <paragraphs>
         <title>Getting Warmed Up and Focused</title>
       </paragraphs>
-      <p>For #1-8 below, read the statement and then fill in the blank with "T" if the statement is true and "F" if the statement is false.</p>
+      <p>For #1-8 below, read the statement and then circle "true" if the statement is correct and "false" if the statement is not correct.</p>
     <exercise>
       <statement><!-- #1 -->
         <p>
-         <m>\underline{\qquad\qquad\qquad}</m>The path represented by the parametric equations 
+         <alert>True or False </alert>: The path represented by the parametric equations 
          <m>x(t)=\cos(t), \ y(t)=\sin(t)</m>, where <m>\displaystyle 0\leq t \leq \frac{3\pi}{2}</m>, is a circle 
          of radius 1, with initial point at <m>(1,0) </m>, terminal point at <m>(0,-1)</m>, and the path follows a counterclockwise direction.
         </p>
+        
       </statement>
       </exercise>
 
       <exercise>
       <statement><!-- #2 -->
         <p>
-        <m>\underline{\qquad\qquad\qquad}</m> The path represented by the parametric equations <m>x(t)=\sin(t), \ y(t)=\cos(t)</m>, where 
+        <alert>True or False </alert>: The path represented by the parametric equations <m>x(t)=\sin(t), \ y(t)=\cos(t)</m>, where 
         <m>\displaystyle 0\leq t \leq \frac{3\pi}{2}</m>, is a circle of radius 1, with initial point at <m>(0,1)</m>, terminal point at <m>(-1,0)</m>, 
         and the path follows a clockwise direction.
         </p>
@@ -50,7 +51,7 @@
     <exercise>
       <statement><!-- #3 -->
         <p> 
-        <m>\underline{\qquad\qquad\qquad}</m> The paths represented by <m>x_1(t)=\sin(t), \ y_1(t)=\cos(t)</m> and <m>x_2(t)=\cos(t), \ y_2(t)=\sin(t)</m> 
+        <alert>True or False </alert>: The paths represented by <m>x_1(t)=\sin(t), \ y_1(t)=\cos(t)</m> and <m>x_2(t)=\cos(t), \ y_2(t)=\sin(t)</m> 
         are the same paths.
         </p>
       </statement>
@@ -59,7 +60,7 @@
     <exercise>
       <statement><!-- #4 -->
         <p>
-         <m>\underline{\qquad\qquad\qquad}</m> The path represented by <m>x(t)=\sin(2t),\ y(t)=\cos(2t)</m>, where <m>0\leq t \leq2\pi</m>, 
+         <alert>True or False </alert>: The path represented by <m>x(t)=\sin(2t),\ y(t)=\cos(2t)</m>, where <m>0\leq t \leq2\pi</m>, 
          starts at <m>(0,1)</m> and moves in the clockwise direction twice around a circle centered at <m>(0,0)</m> with a radius  of 1.
         </p>
       </statement>
@@ -68,7 +69,7 @@
     <exercise>
       <statement><!-- #5 -->
         <p>
-         <m>\underline{\qquad\qquad\qquad}</m>Given <m>x(t)=t^2</m> and <m>y(t)=t^3-3t</m>, the slope of the tangent for any value of <m>t</m> is 
+         <alert>True or False </alert>: Given <m>x(t)=t^2</m> and <m>y(t)=t^3-3t</m>, the slope of the tangent for any value of <m>t</m> is 
          <m>\displaystyle \frac{dy}{dx}=\frac{3t^2-3}{2t}</m>.
         </p>
       </statement>
@@ -76,8 +77,8 @@
 
     <exercise>
       <statement><!-- #6 -->
-        <p>
-         <m>\underline{\qquad\qquad\qquad}</m>Given <m>x(t)=4\cos(t)</m> and <m>y(t)=3\sin(t)</m>, the slope of the tangent line at 
+        <p> <alert>True or False </alert>: 
+         Given <m>x(t)=4\cos(t)</m> and <m>y(t)=3\sin(t)</m>, the slope of the tangent line at 
          <m>\displaystyle t=\frac{3\pi}{4}</m> is <m>\displaystyle\frac{4}{3}</m>.
         </p>
       </statement>
@@ -86,86 +87,67 @@
     <exercise>
       <statement><!-- #7 -->
         <p>
-         <m>\underline{\qquad\qquad\qquad}</m> The curve defined by  <m>x(t)=4\cos(t)</m>, <m>y(t)=3\sin(t)</m> has a horizontal tangent line 
+         <alert>True or False </alert>: The curve defined by  <m>x(t)=4\cos(t)</m>, <m>y(t)=3\sin(t)</m> has a horizontal tangent line 
          at <m>\displaystyle t=\frac{\pi}{2}</m>.
         </p>
       </statement>
     </exercise>
 
-<exercise>
+<exercise workspace="1 in">
       <statement><!-- #8 -->
         <p>
-         <m>\underline{\qquad\qquad\qquad}</m>The curve defined by  <m>x(t)=4\cos(t)</m>, <m>y(t)=3\sin(t)</m>, has a vertical tangent line at 
+         <alert>True or False </alert>: The curve defined by  <m>x(t)=4\cos(t)</m>, <m>y(t)=3\sin(t)</m>, has a vertical tangent line at 
          <m>\displaystyle t=\frac{\pi}{2}</m>.
         </p>
       </statement>
-    </exercise>
-
+    </exercise> 
     </page>
-    <page>
+
+    
+    
+      <page>
       <paragraphs>
         <title>Let Us Get Our Hands On</title>
       </paragraphs>
-    <exercise number="1">
+    <exercise workspace="9 in" number="1">
       <statement><!-- #1 -->
-        <p>Complete the graph below so <m>f(x)</m> has the domain <m>[-8,7]</m>, <m>\displaystyle\lim_{x \rightarrow -4} f(x)=-2</m>, 
-          and <m>\displaystyle\lim_{x \rightarrow 5^-} f(x)=9</m>. 
-        <image source="M142_HOGU_session1_fig1.png" width="70%"/>
+        <p>Sketch the graph of <m>x(\theta) = 2\cos(2\theta), \quad y(\theta) = 8\sin(2\theta)</m> for <m>\displaystyle { 0 \le \theta \le \frac{\pi}{2} }</m> and include the direction of the curve on your graph. 
+          Describe in words the path as <m>\theta</m> increases from <m>0</m> to <m>\displaystyle \pi/2</m>. 
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="5 in" number="2">
-      <statement><!-- #2 -->
-        <p>Complete the tables below to estimate  <m>\displaystyle\lim_{t \rightarrow 0} \frac{|t-5|}{t}</m> numerically. 
-          If the limit does not exist, state so and use limit notation to describe any infinite behavior. Round your answers to four decimal places (if necessary).
-        <table>
-          <title>Left-hand limit</title>
-          <tabular halign="center">
-            <row header="yes" bottom="minor" >
-              <cell>Variable <m>t</m></cell>
-              <cell>Variable <m>f(t)</m></cell>
-            </row>
-            <row>
-              <cell><m>-0.1</m></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell><m>-0.01</m></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell><m>-0.001</m></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell><m>-0.0001</m></cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
+  </page>
 
+  <page>
+    <exercise workspace="9 in" number="2">
+      <statement><!-- #2 -->
+        <p>Match the parametric equations with their corresponding graphs and give reasons for your choices.
+        <ol>
+          <li><p> The parametric equations <m>x(t)=\sin(3t),\ y(t)=3\cos(t)</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=3\sin(t),\ y(t)=3\cos(t)</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=t^{2}-2t,\ y(t)=t</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=\sin(3t),\ y(t)=\cos(3t)</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=3\sin(t),\ y(t)=\cos(3t)</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=t^{2}-2t,\ y(t)=t^{2}</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=t^{2}-2t,\ y(t)=\sqrt{t}</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+          <li><p> The parametric equations <m>x(t)=t^{2}-2t,\ y(t)=t^{3}</m> match Graph #<m>\underline{\qquad\qquad}</m>.</p></li>
+        </ol>
         <table>
-          <title>Right-hand limit</title>
+          <title>Graphs to Match with Equations Above</title>
           <tabular halign="center">
-            <row header="yes" bottom="minor" >
-              <cell>Variable <m>t</m></cell>
-              <cell>Variable <m>f(t)</m></cell>
+            <row>
+              <cell>Graph I<image source="3sin(t)3cos(t).png" /></cell>
+              <cell>Graph II<image source="sin(3t)3cos(t).png" /></cell>
+              <cell>Graph III<image source="3sin(t)cos(3t).png" /></cell>
             </row>
             <row>
-              <cell><m>-0.1</m></cell>
-              <cell></cell>
+              <cell>Graph IV<image source="sin(3t)cos(3t).png" /></cell>
+              <cell>Graph V<image source="t^2-2tandsqrt(t).png" /></cell>
+              <cell>Graph VI<image source="t^2-2tandt.png" /></cell>
             </row>
             <row>
-              <cell><m>-0.01</m></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell><m>-0.001</m></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell><m>-0.0001</m></cell>
-              <cell></cell>
+              <cell>Graph VII<image source="t^2-2tandt^2.png" /></cell>
+              <cell>Graph VIII<image source="t^2-2tandt^3.png" /></cell>
             </row>
           </tabular>
         </table>
@@ -174,102 +156,189 @@
     </exercise>
   </page>
   <page>
-    <exercise workspace="1 in" number="3">
+    <exercise workspace="3.5 in" number="3">
       <statement><!-- #3 -->
-        <p> Set up a table to estimate <m>\displaystyle \lim_{x \rightarrow -2} \frac{x^2-x-6}{(x+2)(x+7)}</m> numerically. 
-          When creating your table, show at least three <m>x</m>-values approaching <m>-2</m> from each side and their corresponding function values in the table. 
-          If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
-          Round your answers to four decimal places (if necessary).  
+        <p>  Find the length of the curve <m>x=t^{3}, \quad y=t^{2}</m> for <m>0\le t \le 1</m>.  
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1 in" number="4">
+    <exercise workspace="3.5 in" number="4">
       <statement><!-- #4 -->
-        <p> Given the graph of <m>f(x)</m> below and <m>g(x)=\frac{10x-30}{x^2-x-6}</m>, 
-          find <m>\displaystyle\lim_{x \rightarrow 3} \left( \frac{f(x)+5x}{2}+\sqrt{g(x)+14} \right)</m>. 
+        <p> Find the length of the curve <m>x = e^{t} + e^{-t}, \quad y=5-2t</m> for <m>0\le t\le 1</m>.
         </p>
       </statement>
     </exercise> 
   </page>
   <page>
-    <exercise workspace="1 in" number="5">
+    <exercise workspace="8 in" number="5">
       <statement><!-- #5 -->
-        <p>Given <m>f(x) = \{ 5^{4x-3} \text{ if } x \leq -5, \frac{x^2-x}{x^2+2x} \text{ if } x > -5 \}</m>
+        <p> Find the length of one arch of the cycloid <m>\displaystyle x = 3(\theta-\sin(\theta)), y = 3(1-\cos(\theta))</m>. A graph of the cycloid is provided below.
+        </p>
+        <p>
+          {Hint}:  <m>\displaystyle \sin\left(\frac{\theta}{2}\right) = \pm \sqrt{\frac{1-\cos(\theta)}{2}}\implies \sin^{2}\left(\frac{\theta}{2}\right) = \frac{1-\cos(\theta)}{2}\implies 2 \sin^{2}\left(\frac{\theta}{2}\right) = 1-\cos(\theta)</m>.
+        </p>
+        <p>
+          <image source="cycloid.png" width="50%"/>
         </p>
       </statement>
     </exercise> 
   </page>
   <page>
-    <exercise workspace="1 in" number="6">
+    <exercise workspace="3.5 in" number="6">
       <statement><!-- #6 -->
-        <p> Find the following limits algebraically. If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
-          Round your answers to four decimal places (if necessary). 
+        <p> At what point(s) on the curve <m>x = t^{2}+1, \quad y=t^{3}-1</m> does the tangent line have slope <m>\displaystyle \frac{1}{2}</m>?
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1 in" number="7">
+    <exercise workspace="3.5 in" number="7">
       <statement><!-- #7 -->
-        <p> For each graph below, find the indicated limit.  
+        <p> Set up, but do not evaluate, the integral that gives area of the surface obtained by rotating the curve <m>x =t\sqrt{t},\  y=t^{2}</m> for <m>0 \le t \le 1</m> the axes indicated below. 
+          <ol>
+            <li>
+              <p>
+              about the <m>y</m>-axis.
+              </p>
+            </li>
+            <li>
+              <p>
+              about the <m>x</m>-axis.
+
+              </p>
+            </li>
+          </ol> 
         </p>
-      </statement>
-    </exercise> 
-    <exercise workspace="1 in" number="8">
-      <statement><!-- #8 -->
-        <p> Jenn is trying to find <m>\displaystyle\lim_{x \rightarrow \infty} f(x)</m> given  <m>f(x) = \frac{12+4x^7+x}{-19x^6+2x^2-5x^7}</m>. </p>
       </statement>
     </exercise> 
   </page>
+
+  <page>
+    <exercise workspace="8 in" number="8">
+      <statement><!-- #8 -->
+        <p> Find the area enclosed by the cycloid <m>\displaystyle x(t)=t-\sin(t), \  y(t)=1-\cos(t)</m> when <m>\displaystyle 0 \leq t \leq 2\pi</m>, and the <m>x</m>-axis.</p>
+        <p><em>Hint:</em> <m>\displaystyle \cos(2x)=\cos^{2}(x)-\sin^{2}(x)</m> and <m>\displaystyle \sin^{2}(x)+\cos^{2}(x)=1</m>. Putting these together we get 
+        <md>  \cos(2x)=2\cos^{2}(x)-1 \implies \frac{\cos(2x)+1}{2}=\cos^{2}(x).</md> This will make integrating <m>\cos^{2}(t)</m> a bit easier.</p>
+      </statement>
+    </exercise> 
+  </page>
+
+  <page>
+  <exercise workspace="2.5 in" number="9">
+      <statement><!-- #9 -->
+        <p> Find the area enclosed by the loop of the curve <m>\displaystyle x(t)=t^{2},\ y(t)=t^{3}-3t</m>.</p>
+        <p>
+        <image source="t^2_(t^3-3t).png" width="50%"/>
+        </p>
+      </statement>
+    </exercise> 
+
+    <exercise workspace="4 in" number="10">
+      <statement><!-- #10 -->
+        <p> Find the surface area of the object obtained by rotating <m>\displaystyle x(t)=9+2t^{2},\ y(t)=4t</m> for <m>0\leq t \leq 2</m> about the <m>x-</m>axis.</p>
+      </statement>
+    </exercise> 
+   </page>
+
   <page>
     <paragraphs>
         <title>Now Grades Go Up</title>
       </paragraphs>
- <exercise workspace ="1 in" number="1">
+ <exercise workspace ="3.5 in" number="1">
   <statement><!-- #1 -->
     <p>
-      The mathematical notation <m>\displaystyle\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m>
+      Let <m>\displaystyle x(t)=\sin(9t)</m> and <m>\displaystyle y(t)=\cos(9t)</m>. Then <m>\displaystyle \frac{dy}{dx}=</m> <em>  </em>.
         <ol marker="(a)">
-          <li> <p>we need to find the value of the function  at <m>x=5</m>.</p> </li>
-          <li> <p> we need to investigate the <m>y</m>-values of <m>f(x)</m> as <m>x</m> gets very near <m>x=5</m> from both the left and right sides of <m>x=5</m>, 
-            but not necessarily at <m>x=5</m>.</p> </li>
-          <li> <p>we need to find the horizontal asymptotes. </p> </li>
-          <li> <p> we need to find the instantaneous rate of change.</p> </li>
-          <li> <p> we need to investigate the <m>y</m>-values as we approach <m>x=5</m> only on the right side.</p> </li>
+          <li> <p><m>\displaystyle -\tan(9t)</m></p> </li>
+          <li> <p><m>\displaystyle \cot(9t)</m> </p> </li>
+          <li> <p><m>\displaystyle 81\sec^{2}(9t)</m> </p> </li>
+          <li> <p><m>\displaystyle 9\tan(t)</m></p> </li>
+          <li> <p><m>\displaystyle \tan(9t)</m></p> </li>
         </ol>
     </p>
   </statement>
  </exercise>
- <exercise workspace ="1 in" number="2">
+ <exercise workspace ="3.5 in" number="2">
   <statement><!-- #2 -->
-    <p>
-      Find <m>\displaystyle\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
-          describe the infinite behavior of the function as <m>x \longrightarrow 2^-</m>.
+    <p>Set up, but do not evaluate, an integral that gives the surface area of the object obtained by rotating 
+     <m>\displaystyle x(t)=1+\ln(5+t^{2}),\ y(t)=2t-2t^{2}</m> where <m>\displaystyle 0 \leq t \leq 2</m> about the <m>y-</m>axis.
+     You may assume that the curve traces out exactly once for the given rangeof <m>t</m>.
         <ol marker="(a)">
-          <li> <p> <m>\displaystyle {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=3</m></p> </li>
-          <li> <p> <m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=-\infty</m></p> </li>
-          <li> <p> <m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
-            but has infinite behavior that can be described as <m>\displaystyle{\lim_{x \rightarrow 2^-} f(x) \rightarrow -\infty}</m>. </p> </li>
-          <li> <p><m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
-            but has infinite behavior that can be described as <m>\displaystyle{\lim_{x \rightarrow 2^-} f(x) \rightarrow \infty}</m>. </p> </li>
-          <li> <p> <m>\displaystyle {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=0</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1 in" number="3">
-  <statement><!-- #3 -->
-    <p>
-      Find <m>\displaystyle\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.
-        <ol marker="(a)">
-          <li> <p> <m>0</m> </p> </li>
-          <li> <p> DNE </p> </li>
-          <li> <p> <m>6</m>  </p> </li>
-          <li> <p> <m>8</m> </p> </li>
-          <li> <p> None of these. </p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{2} 2\pi\left(1+\ln(5+t^{2})\right)\sqrt{\frac{4t^2}{(5+t^2)^2}+(2-4t)^{2}}\ dt</m> </p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{2} 2\pi\left(1+\ln(5+t^{2})\right)\sqrt{\frac{2t}{5+t^2}+2-4t}\ dt</m></p></li>
+          <li> <p><m>\displaystyle \int_{0}^{2} 2\pi r\sqrt{\frac{4t^2}{(5+t^2)^2}+(2-4t)^{2}}\ dt</m> </p></li>
+          <li> <p> <m>\displaystyle \int_{0}^{2} 2\pi(2t-2t^{2})\sqrt{\Big(1+\ln(5+t^{2})\Big)^{2}+\big(2t-2t^{2}\big)^{2}}\ dt</m> </p></li>
+          <li> <p> <m>\displaystyle \int_{0}^{2} 2\pi(2t-2t^{2})\sqrt{\frac{4t^2}{(5+t^2)^2}+(2-4t)^{2}}\ dt</m> </p></li>
         </ol>
     </p>
   </statement>
  </exercise>
 </page>
+
+<page>
+ <exercise workspace ="3.5 in" number="3">
+  <statement><!-- #3 -->
+    <p>
+      The integral that  correctly calculates  the length of the curve defined by <m>x(t)=t^{3}+t,\  y(t)=t^{5}-t</m> for <m>0 \leq t \leq 1</m> is:
+        <ol marker="(a)">
+          <li> <p><m>\displaystyle \int_{0}^{1} (t^{3}+t)\sqrt{2+6t^{2}-t^{4}+25t^{8}}\  dt</m></p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{1} (t^{5}-t)(3t^{2}+1)\ dt</m></p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{1} 2 \pi r\sqrt{3t^{2}+5t^{4}}\ dt</m> </p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{1} \sqrt{2+6t^{2}-t^{4}+25t^{8}}\ dt</m> </p> </li>
+          <li> <p><m>\displaystyle \int_{0}^{1} (t^{5}-t)\sqrt{3t^{2}+5t^{4}}\ dt</m></p> </li>
+        </ol>
+    </p>
+  </statement>
+ </exercise>
+
+ <exercise workspace ="3.5 in" number="4">
+  <statement><!-- #4 -->
+    <p>
+      Find the points on the curve <m>\displaystyle x(t)=t^{2},\ y(t)=t^{2}-2t</m> where the tangenet line is horizontal.
+        <ol marker="(a)">
+          <li> <p><m>\displaystyle (x,y)=(2,1)</m></p> </li>
+          <li> <p><m>\displaystyle (x,y)=(1,1)</m> </p> </li>
+          <li> <p><m>\displaystyle (x,y)=(1,2)</m> </p> </li>
+          <li> <p><m>\displaystyle (x,y)=(1,-1)</m> </p> </li>
+          <li> <p><m>\displaystyle (x,y)=(2,-1)</m> </p> </li>
+        </ol>
+    </p>
+  </statement>
+ </exercise>
+</page>
+
+<page>
+    <paragraphs>
+      <title>Helpful Formulas</title>
+    </paragraphs>
+    <p>
+    <ul>
+      <li><p>If the curve is traced out once by the parametric equations <m>x=f(t)</m> and <m>y=g(t)</m>, <m>\alpha \leq t \leq \beta</m> then we can calculate the area 
+      under the curve with the formula <m>\displaystyle A=\int_{\alpha}^{\beta}g(t)\ f'(t) \ dt</m>.</p></li>
+  
+  <li>
+    <p>
+      If a curve <m>C</m> is described by the parametric equations <m>x=f(t)</m>, <m>y=g(t)</m>, <m>\alpha \leq t \leq \beta</m>, where <m>f'(t)</m> and <m>g'(t)</m>
+  are continuous on <m>[\alpha,\beta]</m> and <m>C</m> is traversed exactly once as <m>t</m> increases from <m>\alpha</m> to <m>\beta</m>, then
+    </p>
+  ≈
+  <ol>
+    <li>
+      <p>
+      the length, <m>L</m>, of <m>C</m> is given by <m>\displaystyle L=\int_{\alpha}^{\beta}\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left( \frac{dy}{dt}\right)^{2}}\ dt</m>.
+      </p>
+    </li>
+
+    <li>
+      <p>
+      the surface area is give by <m>\displaystyle S=\int_{\alpha}^{\beta}2\pi r\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left( \frac{dy}{dt}\right)^{2}}\ dt</m>.
+If the curve is rotated about the <m>x-</m>axis, then <m>g(t)\geq0</m> and <m>r=y(t)</m>.
+If the curve is rotated about the <m>y-</m>axis, then <m>f(t)\geq 0</m> and <m>r=x(t)</m>.
+      </p>
+    </li>
+  </ol>
+</li>
+      </ul>  
+     </p>
+      </page>
 </worksheet>
 
   </article>
